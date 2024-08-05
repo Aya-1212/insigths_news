@@ -26,11 +26,13 @@ class _ProfileViewState extends State<ProfileView> {
     super.initState();
   }
 
-  uploadImage({required bool isCamera}) async {
+  uploadImage({required bool isCamera})  async {
     var pickedImage = await ImagePicker()
         .pickImage(source: isCamera ? ImageSource.camera : ImageSource.gallery);
     if (pickedImage != null) {
+      setState(() {
       AppLocalStorage.cacheUserData('image', pickedImage.path);
+      });
     }
   }
 
@@ -75,8 +77,8 @@ class _ProfileViewState extends State<ProfileView> {
                                     child: ElevatedButton(
                                         style: ElevatedButton.styleFrom(
                                             backgroundColor: AppColors.primary),
-                                        onPressed: () {
-                                          uploadImage(isCamera: true);
+                                        onPressed: () async {
+                                          await uploadImage(isCamera: true);
                                           pop(context);
                                           pushWithReplacement(
                                               context,
