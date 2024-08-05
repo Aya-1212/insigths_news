@@ -22,7 +22,6 @@ class MainApp extends StatelessWidget {
         home: const SplashView(),
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-            // fontFamily: GoogleFonts.poppins().fontFamily,
             scaffoldBackgroundColor: AppColors.background,
             appBarTheme: AppBarTheme(
                 centerTitle: true,
