@@ -15,9 +15,3 @@ The app discribes the power of public news APIs to deliver a curated stream of n
 - Intuitive Interface: Enjoy a clean and user-friendly design.
 - Real-time news updates: Access the latest headlines.
 - You can visit the website of the article.
-
-
-
-
-
-
