@@ -1,6 +1,6 @@
 # Flutter Project
 
-## Inseight News
+## Insight News
 
 The app discribes the power of public news APIs to deliver a curated stream of news articles tailored to some categories and sources. Discover top headlines, explore trending topics, and dive deep into stories that matter.
 
