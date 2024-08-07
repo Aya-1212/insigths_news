@@ -13,6 +13,7 @@ The app discribes the power of public news APIs to deliver a curated stream of n
 - Multiple News Sources: Access a wide range of articles.
 - Search Functionality: Quickly find specific news or topics. [also you can search for arabic articles]
 - Intuitive Interface: Enjoy a clean and user-friendly design.
+- Personalized profile
 - Real-time news updates: Access the latest headlines.
 - You can visit the website of the article.
 
